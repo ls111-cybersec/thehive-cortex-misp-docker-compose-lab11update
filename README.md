@@ -9,7 +9,7 @@ Since I created this content, there have been some minor changes to the way thes
 
 I have included the updated docker-compose.yml which I encourage you try for yourself and as promised for those that watched to the end of the video, below is a link to the VirtualBox .ova file that you can import into your own VirtualBox environment. 
 
-Link: xxx
+Link: https://drive.google.com/file/d/1ehXwvVoGQQEQQjPTb-BxQ1MAEMWNGnR-/view?usp=sharing
 
 Virtual Machine info:<br/>
 
@@ -21,26 +21,13 @@ Cortex Admin<br/>
 labuser<br/>
 lab123<br/>
 <br/>
-Cortex Lab User<br/>
-labuser@mm.local<br/>
-lab123<br/>
-<br/>
 MISP Admin<br/>
 admin@admin.test<br/>
-lab123Lab!@#<br/>
-<br/>
-MISP Lab user<br/>
-labuser@mm.local<br/>
-lab123Lab!@#<br/>
+admin<br/>
 <br/>
 TheHive Default Admin<br/>
 admin@thehive.local<br/>
 secret<br/>
-<br/>
-TheHive Lab User<br/>
-labuser@mm.local<br/>
-lab123<br/>
-<br/>
 <br/>
 If you find value in my content please consider subscribing to my channel for more Cyber Security content.
 <br/>
