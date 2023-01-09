@@ -76,7 +76,6 @@ services:
     networks:
       - SOC_NET
 
-      - SOC_NET
 #appended .local onto the container name because when we integrate cortex with TheHive using the new GUI menu it only accept a FQDN.
   cortex.local:
     image: thehiveproject/cortex:latest
