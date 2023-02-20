@@ -45,7 +45,10 @@ services:
       - CASSANDRA_CLUSTER_NAME=TheHive
     volumes:
       - cassandradata:/var/lib/cassandra
-    networks:elasticsearch:
+    networks:
+      - SOC_NET
+    
+    elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.4
     restart: unless-stopped
     mem_limit: 512m
