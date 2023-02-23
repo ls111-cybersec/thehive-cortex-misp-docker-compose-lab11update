@@ -48,7 +48,7 @@ services:
     networks:
       - SOC_NET
     
-    elasticsearch:
+  elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.4
     restart: unless-stopped
     mem_limit: 512m
