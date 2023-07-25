@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   thehive:
-    image: strangebee/thehive:latest
+    image: strangebee/thehive:5.2
     restart: unless-stopped
     depends_on:
       - cassandra
@@ -49,7 +49,7 @@ services:
       - SOC_NET
     
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.4
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.9
     restart: unless-stopped
     mem_limit: 512m
     ports:
@@ -128,7 +128,7 @@ services:
       - "INIT=true"         
       - "CRON_USER_ID=1"   
       - "REDIS_FQDN=redis"
-      - "HOSTNAME=https://10.200.200.253"
+      - "HOSTNAME=https://10.0.2.10"
     networks:
       - SOC_NET
 
@@ -145,7 +145,7 @@ services:
     networks:
       - SOC_NET
   redis:
-    image: redis:5.0.6
+    image: redis:latest
     networks:
       - SOC_NET
   misp-modules:
